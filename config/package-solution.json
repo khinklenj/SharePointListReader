@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "share-point-list-reader-client-side-solution",
+    "id": "4a6f58ec-dc23-4a8d-8b62-46c6fdc0be65",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SharePointListReader description"
+      },
+      "longDescription": {
+        "default": "SharePointListReader description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "share-point-list-reader Feature",
+        "description": "The feature that activates elements of the share-point-list-reader solution.",
+        "id": "998aa567-2f3d-4918-826f-777b1f68789a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/share-point-list-reader.sppkg"
+  }
+}
